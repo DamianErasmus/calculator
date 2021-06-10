@@ -1,0 +1,45 @@
+.container {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.calculator .radio,
+.calculator .buttons{
+    background-color: hsl(0, 5%, 81%);
+}
+
+.calculator .screen {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.calculator .screen,
+.calculator .heading,
+.calculator h4,
+.calculator .btn_basic {    
+    color: #35352c;
+}
+
+.calculator .btn_del,
+.calculator .btn_res,
+.calculator .key_equal {
+    color: #fff;
+}
+
+.calculator .btn_del,
+.calculator .btn_res {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0 2px hsl(185, 58%, 25%);
+}
+
+.calculator .key_equal {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0 2px hsl(25, 99%, 27%);
+}
+
+.calculator .btn_basic {
+    background-color:hsl(45, 7%, 89%);
+    box-shadow: 0 2px hsl(35, 11%, 61%);
+}
+
+input[type="radio"]:checked:before {
+    background: hsl(25, 98%, 40%);
+}
